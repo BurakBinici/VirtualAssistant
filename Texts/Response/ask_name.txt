@@ -1,0 +1,10 @@
+Lütfen isminizi öğrenebilir miyim?
+Adınız nedir?
+Sizin isminiz nedir?
+Sizin adınız nedir?
+Lütfen adınızı belirtir misiniz?
+Lütfen isminizi rica edebilir miyim?
+Acaba sizi hangi isimle anmalıyım?
+Lütfen adınızı rica edebilir miyim?
+Lütfen adınızı paylaşabilir misiniz?
+Hangi isimle size hitap edebilirim?

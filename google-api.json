@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "engaged-parsec-423413-c1",
+    "private_key_id": "28022499af1ceeb7ad4a4326508e07ed51aa8600",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDo4o8q/gBjGh5p\nCJOMMM5bYjuz8ssSHD/mhMFIHGpIxmk3qFQ++P/+JQReRSUYreZw+fj/5K0V1C9A\n42KDgyb0ie2YMB3K0jyMZE8FQ0ZSlnGM0rMIiPmRHq/3C9x3JMd19EPnQ2hsR4Ul\nAt7MD0cf+zUoNz95CetrbcPAwXHnElQWX5XUThI94Cd2pDrdxC6txjbl8/1MLjeI\nifkmE+QThb3cx+ubbvx9fh9YpJUu3u+o5+M1hhsQKpR2VLGqG2qM66/yVTvy5M3k\nvMb5bHi5gRNArUK+1Z7YhoTEF+xNh1M4eUYe6K5DxHj6gJn6pYKKKT5i2lWIHdCL\ngUzO+sC9AgMBAAECggEABJOvTKEBUPFKd7X7cF3lMFaV5ct3wjtb5iPlyI0Gabe8\niaN9RF+QaGZB17h0KjAAv2eqRR0xaaRp6VSOsxb4xQWQ7dTEQSAwoHG4O9o+n5Dl\nWmcprZlDjl6UBr7s7kqCwQaz7u+cNcSSEVAlIM2MEEzXlpq/XJmdTtcxabBjlK71\n7Rmpz5vMb34HcVA8Oa3smHvO7yczaBpGI7JxlG2S8Bj3cnTU8UcmK6TLiPb4j8Z7\nDd2K8F6tJIyzN/v932JUsgxl+nmSrCphd+Ey+NKGsxTEe9MN230DMgtRWMmQDpB5\nFmvqvAYby3XKHu3HO2K5RaZZxlP8TYQd4m0C9UX74QKBgQD+Wrz9e2RAACBBlPrQ\nMG1xY3eOAVZmRUF2GDM+xguv2kmYE7YYyqEWPyUnPO9y3zna3BIPeYRIEshW+kO1\ngvafCwhIuJ6DxUyJT/TdOLEQN+BlvYnDE0L3A1pd5BJ8UGiAsRcuOupPNxT7r8Qa\nejQGLkT7rr10cKw9/NrhVKpu3wKBgQDqZENoZITX8obeD9ZtegeUQ93hi/Favj4y\nvIu9x43lLuslGucC5KlwBhsetwkanCh+eHF+STOcSVcn4fy9eDJLbpcTLRUZnxMs\nR+2B/z3jaq18GklTcCuQK1TRyS6cfDhVIjbuj42DTyc5kk8mOheEPCpWccZ+NZJJ\ntDxn1/Cv4wKBgAfJEzvXCQyEdHhNbRfuQ4tS9hfcpp5exFAvEXJ8cWMilVoYUFyV\n5zRdHnADB3lGp+ixD8R1fb0PBh7TbjsiFRZtKgW/0OpLoboaPm5/C7xpWW8DzDGy\nZzxUV/HDx2USuQAna4Q4vW9LSlMh4CjHUMxXojjp8lacFEmZccGv67+VAoGAE6Cx\nxFwmg67bfFz3J9PALrpAKlL9swubScRgL1Q2naqAJmtKTQO47JiWTMwnBwNsoKqV\nVm3q1HuPwNc7wuH91DM+k2yDB9I6WMrtKKWnGRQl0u6glUwfWcNHJwohzRjZ3scu\nsmty/jvynO+TkS/sKDahlPuSE5+I0IM3S7rZfOECgYEA4EizrKx1D7RljJepPp18\n+6C9zaKYfLCo/bmCiEPsP5ZuRYX4shpCXpqhWnPYc5fadJtzxo1LKKEoJ02v7r0J\nRZwJSj0TovxDNSWRcrYK08UjQfbRQ/qLroAUCpVMbUzc20Dtqrny6A4sykN3yetM\nzwfKpC8Rw3rBOr0y/vfUimo=\n-----END PRIVATE KEY-----\n",
+    "client_email": "virtualassistant-440@engaged-parsec-423413-c1.iam.gserviceaccount.com",
+    "client_id": "118165984782335108381",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/virtualassistant-440%40engaged-parsec-423413-c1.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  
