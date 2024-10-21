@@ -7,7 +7,7 @@ from common import reset_config_json
 
 
 if __name__ == "__main__":
-    # freeze_support çağrısı sadece Windows'ta gereklidir
+    # The freeze_support call is only required on Windows
     if sys.platform == "win32":
         try:
             mp.freeze_support()
