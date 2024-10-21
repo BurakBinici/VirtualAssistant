@@ -65,8 +65,8 @@ Aşağıda kodun test edildiği anda Virtual Environment'te yüklü olan modüll
 Package                  Version
 ------------------------ --------
 beautifulsoup4           4.12.3
-blinker                  1.8.2
-bs4                      0.0.2
+\nblinker                  1.8.2
+\nbs4                      0.0.2
 cachetools               5.3.3
 certifi                  2024.2.2
 charset-normalizer       3.3.2
