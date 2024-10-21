@@ -285,8 +285,8 @@ def process_audio(shared_flag, is_running):
                     is_running[0] = 0
                 
                 else:
-                    # Daha sonraki aşamada geliştirilecektir.
-                    # Komutun ChatGPT'ye gönderilip gelen yanıta göre cevap vermesi planlanmaktadır.
+                    # Will be developed in the next stage.
+                    # The command is planned to be sent to ChatGPT and respond according to the response.
                     print("ChatGPT")
             else:
                 print("-")
