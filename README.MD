@@ -1,46 +1,41 @@
-1- Program Python 3.8.10'da test edilmiştir. Diğer sürümlerde hatalarla karşılaşılabilir.
+1- The program was tested in Python 3.8.10. Other versions may encounter errors.
 
-2- VirtualAssistant klasörünü Visual Studio Code'da açmanız önerilir. Testler Visual Studio Code IDE'sinde yapılmıştır. Diğer IDE'lerde dosya yolu hatalarıyla karşılaşılabilir.
+2- It is recommended to open the VirtualAssistant folder in Visual Studio Code. The tests were performed in the Visual Studio Code IDE. File path errors may be encountered in other IDEs.
 
-3- Klasörün içinde Virtual Environment oluşturmanız önerilir. Böylece bilgisayarınızdaki diğer paketlerin kurulumunu ve sürümünü etkilemez.
+3- It is recommended to create a Virtual Environment in the folder. This way, it does not affect the installation and version of other packages on your computer.
 
-4- Virtual environment oluşturmak için Visual Studio Code içinde terminal açıp 
-"python -m venv {isim}"
-komutunu girerek kurulumun tamamlanmasını bekleyiniz.
+4- To create a virtual environment, open a terminal in Visual Studio Code and enter the command
+"python -m venv {name}"
+and wait for the installation to complete.
 
-5- Oluşturulan Virtual Environment'i etkinleştirmek için terminale 
-"{isim}/Scripts/activate"
-komutunu giriniz.
+5- To activate the created Virtual Environment, enter the command
+"{name}/Scripts/activate"
+in the terminal.
 
-6- Virtual Environment aktifleştirildikten sonra 
+6- After the Virtual Environment is activated, you can check the python version with
 "python --version"
-ile python versiyonunu kontrol edebilirsiniz.
 
-7- Ardından paket bağımlılıklarını kurmak için terminale 
-"pip install -r requirements.txt" 
-komutunu giriniz. Kurulumun tamamlanmasını bekleyiniz. Eğer kurulum sırasında hata alırsanız aşağıda kütüphanelerin versiyonsuz isimleri yazmaktadır. Orayı kopyalayıp requirements.txt dosyasına yapıştırın, dosyayı kaydedin. Ardından yukarıdaki komutu tekrar çalıştırın.
+7- Then enter the command
+"pip install -r requirements.txt"
+in the terminal to install the package dependencies. Wait for the installation to complete. If you get an error during the installation, the names of the libraries without versions are written below. Copy and paste it to the requirements.txt file, save the file. Then run the above command again.
 
-8- Kurulumlar tamamlandıktan sonra 
-"pip list" 
-komutuyla Virtual Environment'te yüklü olan paketleri görüntüleyebilirsiniz.
+8- After the installation is complete, you can view the packages installed in the Virtual Environment with the command
+"pip list"
 
-9- Kodu çalıştırmadan önce internet bağlantınızın olduğundan emin olun. Kodu çalıştırmak için Virtual Environment aktifken terminale 
-"python ./Codes/main.py" 
-komutunu yazınız. Kodun ilk başta çalışması uzun sürebilir bekleyiniz.
+9- Make sure you have an internet connection before running the code. To run the code, type the command
+"python ./Codes/main.py"
+in the terminal while the Virtual Environment is active. The code may take a long time to run at first, wait.
 
-10 - Herhangi bir hata durumunda 
-"python ./reset_data.py" 
-komutuyla verileri sıfırlayabilirsiniz.
+10 - In case of any error, you can reset the data with the command
+"python ./reset_data.py"
 
-
-ÖNEMLİ NOT
+IMPORTANT NOTE
 ----------
-* Ses tanıma işlemleri için google-cloud-speech kütüphanesinin API'si kullanılmıştır. Sınırlı ücretsiz kullanım sunulmaktadır. Kullanım kotası dolduğunda hata verebilir. Eğer hatayla karşılaşırsanız https://cloud.google.com/ adresinden giriş yaparak sınırlı ücretsiz kullanıma sahip olabilirsiniz. Ardından yeni bir proje anahtarı (key) oluşturmanız gerekmektedir. Anahtarla ilgili bilgileri belirtilen adresten json formatında indirerek dosya ismini "google-api.json" olarak değiştirip proje dizinine atarak programı çalıştırabilirsiniz. 
+* The google-cloud-speech library API was used for voice recognition operations. Limited free use is offered. It may give an error when the usage quota is full. If you encounter an error, you can access limited free usage by logging in to https://cloud.google.com/. Then you need to create a new project key. You can download the information about the key in json format from the specified address, change the file name to "google-api.json" and put it in the project directory and run the program.
 
-
-*************************************************************************************************************************************************
-Eğer requirements.txt çalışmazsa aşağıda *lar arasındaki kısmı kopyalayıp requirements.txt dosyasına yapıştırıp kaydedin.
-*************************************************************************************************************************************************
+************************************************************************************************************************************************************************
+If requirements.txt does not work, copy the part between the * below and paste it into the requirements.txt file and save it.
+*********************************************************************************************************************************************************
 bs4
 google-cloud-speech
 gtts
@@ -57,16 +52,14 @@ requests
 SpeechRecognition
 wikipedia
 
-*************************************************************************************************************************************************
-
-Aşağıda kodun test edildiği anda Virtual Environment'te yüklü olan modüller ve sürümleri belirtilmiştir.   
-
+************************************************************************************************************************************
+The modules and their versions loaded in the Virtual Environment at the time the code was tested are listed below.
 
 Package                  Version
 ------------------------ --------
 beautifulsoup4           4.12.3
-\nblinker                  1.8.2
-\nbs4                      0.0.2
+blinker                  1.8.2
+bs4                      0.0.2
 cachetools               5.3.3
 certifi                  2024.2.2
 charset-normalizer       3.3.2
